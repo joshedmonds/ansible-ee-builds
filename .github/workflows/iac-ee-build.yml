@@ -24,8 +24,7 @@ jobs:
     with:
       EE_FOLDER_NAME: 'iaas-ee'
       EE_IMAGE_TAG: 'latest'
-      QUAY_USER: 'acme_corp'
+      REGISTRY_NAMESPACE: 'joshedmonds'
     secrets:
-      REDHAT_USERNAME: ${{ secrets.REDHAT_USERNAME }}
-      REDHAT_PASSWORD: ${{ secrets.REDHAT_PASSWORD }}
-      AH_TOKEN: ${{ secrets.AH_TOKEN }}
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

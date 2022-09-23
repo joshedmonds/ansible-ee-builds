@@ -1,0 +1,7 @@
+---
+collections:
+  - ansible.posix
+  - netapp.ontap
+  - netapp.storagegrid
+  - community.vmware
+  - vmware.vmware_rest
