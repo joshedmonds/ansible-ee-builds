@@ -1,5 +1,5 @@
 # ansible-ee-builds
-![ServiceNow EE build](https://github.com/joshedmonds/ansible-ee-builds/actions/workflows/iac-ee-build.yml/badge.svg)]
+![ServiceNow EE build](https://github.com/joshedmonds/ansible-ee-builds/actions/workflows/iac-ee-build.yml/badge.svg)
 
 Adapted from https://github.com/cloin/ee-builds
 
