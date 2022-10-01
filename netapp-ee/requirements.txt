@@ -1,0 +1,4 @@
+requests
+netapp-lib
+azure-mgmt
+netapp-azure-mgmt
