@@ -4,8 +4,7 @@
 Adapted from https://github.com/cloin/ee-builds
 
 Creates an Ansible Execution Environment (EE) image which contains collections for:
+Source repository for the following Ansible Execution Environments:
 
-* NetApp ONTAP
-* NetApp StorageGRID
-* VMware
-* Linux POSIX
+* [IaaS EE](/iaas-ee) - An Infrastructure-as-a-Service EE containing VMware and NetApp Ansible collections
+* [NetApp EE](/netapp-ee) - A NetApp EE containing all NetApp Ansible collections
