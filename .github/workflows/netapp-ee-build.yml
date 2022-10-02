@@ -22,7 +22,7 @@ jobs:
   call-deploy-workflow:
     uses:  joshedmonds/ansible-ee-builds/.github/workflows/deploy.yml@main
     with:
-      EE_FOLDER_NAME: 'iaas-ee'
+      EE_FOLDER_NAME: 'netapp-ee'
       EE_IMAGE_TAG: 'latest'
       REGISTRY_NAMESPACE: 'joshedmonds'
     secrets:
