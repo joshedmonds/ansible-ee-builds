@@ -1,4 +1,4 @@
 requests
 netapp-lib
-azure-mgmt
-netapp-azure-mgmt
+# azure-mgmt
+# netapp-azure-mgmt
