@@ -6,5 +6,6 @@ collections:
   - netapp.cloudmanager
   - netapp.elementsw
   - netapp.ontap
+    version: 21.24.0
   - netapp.storagegrid
   - netapp.um_info
