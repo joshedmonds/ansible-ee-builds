@@ -1,6 +1,7 @@
 ---
 collections:
   - name: ansible.posix
+  - name: ansible.utils
   - name: netapp.aws
   # name: - netapp.azure
   - name: netapp.cloudmanager
