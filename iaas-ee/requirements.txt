@@ -2,3 +2,4 @@ requests
 netapp-lib
 pyvmomi
 netaddr
+pika
