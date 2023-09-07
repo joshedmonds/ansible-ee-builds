@@ -5,3 +5,4 @@ collections:
   - netapp.storagegrid
   - community.vmware
   - vmware.vmware_rest
+  - community.rabbitmq
