@@ -10,7 +10,7 @@ build_arg_defaults:
   
 additional_build_files:
   - src: '../ansible.cfg'
-    dst: configs
+    dest: configs
 
 dependencies:
   ansible_core:
