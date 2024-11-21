@@ -21,7 +21,8 @@ dependencies:
   python: requirements.txt
 
 additional_build_steps:
-  prepend_base: |
-    RUN $PYCMD -m pip install --upgrade pip setuptools
+  prepend_base:
+    - RUN $PYCMD -m ensurepip --upgrade
+    - RUN $PYCMD -m pip install --upgrade pip setuptools
   # append: |
   #   LABEL quay.expires-after="45d"
